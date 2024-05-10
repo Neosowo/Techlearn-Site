@@ -1,0 +1,249 @@
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    max-width: 3000px;
+
+
+  }
+
+
+
+
+  @media (max-width: 420px) {
+    .menu-section {
+    flex-basis: calc(300.33% - 35px);
+    max-width: 100%;
+
+  }
+  .menu-section img {
+    max-width: 60%;
+    max-height: 40%;
+
+  }
+
+
+}
+  .menu-section {
+    flex-basis: calc(33.33% - 35px);
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#242323;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .scroll-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;
+width: 40px;
+height: 40px;
+background-color: #7b71c1;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+color: #fff;
+font-size: 24px;
+z-index: 9999;
+cursor: pointer;
+text-decoration: none;
+}
+
+.scroll-to-top:hover {
+background-color: #7c64b4;
+}
+
+.scroll-to-top i {
+margin-top: 8px;
+}
+
+.scroll-to-top.active {
+display: block;
+}
+
+
+
+
+
+
+
+  .menu-section img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 5%;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+  }
+
+
+
+button {
+border-radius: 7px;
+          position: relative;
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #000000;
+          border: none;
+          color: rgb(255, 255, 255);
+          font-size: 18px;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+          cursor: pointer;
+    margin-top: 10px;
+}
+
+@keyframes shadowcsb {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgb(77, 60, 228);
+          }
+      }
+
+
+.csb:hover{
+animation: shadowcsb 0.7s infinite alternate;
+}
+
+@keyframes shadowpy {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgb(255, 255, 0);
+          }
+      }
+
+.py:hover{ 
+animation: shadowpy 0.9s infinite alternate;
+}
+  
+
+@keyframes shadowjava {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgba(255, 161, 54, 0.549);
+          }
+      }
+
+.java:hover{
+animation: shadowjava 0.9s infinite alternate;
+}
+
+@keyframes shadowhtml {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgb(255, 68, 0);
+          }
+      }
+
+
+.html:hover{
+animation: shadowhtml 0.9s infinite alternate;
+}
+@keyframes shadowcss {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgba(58, 212, 255, 0.692);
+          }
+      }
+
+.css:hover{
+animation: shadowhtml 0.9s infinite alternate;
+}
+
+@keyframes shadowjs {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgb(255, 245, 58);
+          }
+      }
+
+.js:hover{
+animation: shadowjs 0.9s infinite alternate;
+}
+
+@keyframes shadowkotlin {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgb(58, 87, 255);
+          }
+      }
+
+.kotlin:hover{
+animation: shadowkotlin 0.9s infinite alternate;
+}
+
+@keyframes shadowdl {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgb(251, 251, 251);
+          }
+      }
+
+.dl:hover{
+animation: shadowdl 0.9s infinite alternate;
+}
+
+@keyframes shadowkali {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgb(85, 85, 85);
+          }
+      }
+
+.kali:hover{
+animation: shadowkali 0.9s infinite alternate;
+}
+
+@keyframes shadowcmas {
+          from {
+              box-shadow: 0 0 10px #000;
+          }
+          to {
+              box-shadow: 0 0 20px rgb(0, 88, 157);
+          }
+      }
+      
+
+.cmas:hover{
+    animation: shadowcmas 0.9s infinite alternate;
+}
+
+
+.home-section .text a{
+    text-decoration: none;
+    color: #7b71c1;
+    animation: shadowhome 1s infinite alternate;
+}
+
